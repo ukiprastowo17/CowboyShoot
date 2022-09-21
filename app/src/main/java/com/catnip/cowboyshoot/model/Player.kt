@@ -11,6 +11,6 @@ Github : https://github.com/hermasyp
  **/
 data class Player(
     val playerSide: PlayerSide,
-    val playerState: PlayerState,
-    val playerPosition: PlayerPosition
+    var playerState: PlayerState,
+    var playerPosition: PlayerPosition
 )

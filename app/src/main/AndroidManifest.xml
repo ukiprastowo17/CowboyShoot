@@ -14,7 +14,7 @@
         android:theme="@style/Theme.CowboyShoot"
         tools:targetApi="31">
         <activity
-            android:name=".ui.game.MainActivity"
+            android:name=".ui.game.GameActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
